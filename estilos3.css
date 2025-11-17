@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+    background-color: darkcyan;
+}
+
+.menu {
+    margin: 20px 0;
+}
+
+.ej {
+    display: none;
+    border: 1px solid #000;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+}

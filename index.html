@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Area de Salud</title>
+    <link rel="stylesheet" href="estilos3.css">
+</head>
+<body>
+    <h1>Ejercicios Salud</h1>
+    
+    <div class="menu">
+        <button onclick="ver(1)">Ejercicio 1</button>
+        <button onclick="ver(2)">Ejercicio 2</button>
+        <button onclick="ver(3)">Ejercicio 3</button>
+        <button onclick="ver(4)">Ejercicio 4</button>
+        <button onclick="ver(5)">Ejercicio 5</button>
+    </div>
+
+    <div id="e1" class="ej">
+        <h3>Presión arterial</h3>
+        <input type="number" id="sistolica" placeholder="Sistólica">
+        <input type="number" id="diastolica" placeholder="Diastólica">
+        <button onclick="e1()">Clasificar</button>
+        <p id="r1"></p>
+        <button onclick="menu()">Volver</button>
+    </div>
+
+    <div id="e2" class="ej">
+        <h3>Temperatura pacientes</h3>
+        <input type="number" id="pacientes" placeholder="Número de pacientes">
+        <button onclick="e2()">Calcular</button>
+        <p id="r2"></p>
+        <button onclick="menu()">Volver</button>
+    </div>
+
+    <div id="e3" class="ej">
+        <h3>Pacientes con fiebre</h3>
+        <input type="number" id="temp">
+        <button onclick="a3()">Agregar</button>
+        <button onclick="c3()">Contar</button>
+        <p id="r3"></p>
+        <button onclick="menu()">Volver</button>
+    </div>
+
+    <div id="e4" class="ej">
+        <h3>TRIAGE</h3>
+        <select id="triage">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <button onclick="e4()">Clasificar</button>
+        <p id="r4"></p>
+        <button onclick="menu()">Volver</button>
+    </div>
+
+    <div id="e5" class="ej">
+        <h3>Saturación SpO2</h3>
+        <input type="number" id="spo2" placeholder="Saturación %">
+        <button onclick="a5()">Agregar</button>
+        <button onclick="c5()">Ver registros</button>
+        <p id="r5"></p>
+        <button onclick="menu()">Volver</button>
+    </div>
+
+    <script src="main3.js"></script>
+</body>
+</html>
